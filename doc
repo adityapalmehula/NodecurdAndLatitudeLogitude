@@ -1,0 +1,58 @@
+1- create package.json file ( go to root of project).
+npm init -y
+"it have the information about our node project and also track our dependancies so any
+third package  that we will install like express and mongo it will add into prackge.json 
+track that changes into that folder".
+=> main point name will be our start point of project - (like node start) 
+
+2- install express ( go to root to folder )-
+npm install express --save  ( it will add all dependency into package.json file , it will also add 
+node_modules so no need to npm install );
+
+3- install nodemone ( it autometically restart your node if you do any chnages then no need to run 
+node start again - angain after changes into file . its work like angular ).
+
+npm install nodemon --save-dev
+
+4- install bodypraser 
+go to root of project and write command it will and the dependeny into your package.json file
+npm install body-parser --save
+
+5- install mongoose 
+{
+use - 
+help to save data into mongodb easily
+add a layer of methods to easily save ,edit,retreive and delete data fome mongodb
+allows us to create our models and schemas easily
+commands - Command to configur mongoose into db
+
+npm install mongoose --save      ( run on root of project ).
+}
+
+
+6 - Connection to mongo data base -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
